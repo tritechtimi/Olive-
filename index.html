@@ -16,6 +16,7 @@
       background:#000;
       display:flex; align-items:center; justify-content:center;
       z-index: 9999;
+      transition: opacity 0.5s ease;
     }
     #loader h1 {
       font-size:2rem;
@@ -92,7 +93,7 @@
       transform:translateY(20px);
       animation: fadeUp 3s ease forwards;
       animation-delay:0.5s;
-      margin-bottom:25px; /* space between slogan and button */
+      margin-bottom:25px;
     }
     @keyframes fadeUp {
       0%{opacity:0; transform:translateY(20px);}
@@ -170,11 +171,11 @@
 
   <!-- Hero -->
   <div class="hero">
-    <img src="hotel1.jpg"><img src="hotel2.jpg"><img src="hotel3.jpg">
-    <img src="hotel4.jpg"><img src="hotel5.jpg"><img src="hotel6.jpg">
-    <img src="hotel7.jpg"><img src="hotel8.jpg"><img src="hotel9.jpg">
-    <img src="hotel10.jpg"><img src="hotel11.jpg"><img src="hotel12.jpg">
-    <img src="hotel13.jpg"><img src="hotel14.jpg">
+    <img src="hotel1.jpg" alt="Hotel view 1"><img src="hotel2.jpg" alt="Hotel view 2"><img src="hotel3.jpg" alt="Hotel view 3">
+    <img src="hotel4.jpg" alt="Hotel view 4"><img src="hotel5.jpg" alt="Hotel view 5"><img src="hotel6.jpg" alt="Hotel view 6">
+    <img src="hotel7.jpg" alt="Hotel view 7"><img src="hotel8.jpg" alt="Hotel view 8"><img src="hotel9.jpg" alt="Hotel view 9">
+    <img src="hotel10.jpg" alt="Hotel view 10"><img src="hotel11.jpg" alt="Hotel view 11"><img src="hotel12.jpg" alt="Hotel view 12">
+    <img src="hotel13.jpg" alt="Hotel view 13"><img src="hotel14.jpg" alt="Hotel view 14">
     <div class="hero-content">
       <h1 class="hotel-name">Olive Hotel & Suites</h1>
       <p class="slogan">A Place You're Becoming The Monarch</p>
@@ -192,16 +193,15 @@
   <section id="rooms">
     <h2>Our Rooms & Suites</h2>
     <div class="grid">
-      <div class="card"><img src="room1.jpg"><h3>Luxurious Room & Suites</h3><p>Elegant comfort with modern design.</p><a href="room-luxury.html">Read More</a></div>
-      <div class="card"><img src="deluxe1.jpg"><h3>Deluxe</h3><p>Perfect blend of luxury & simplicity.</p><a href="room-deluxe.html">Read More</a></div>
-      <div class="card"><img src="executive1.jpg"><h3>Executive</h3><p>Spacious & designed for business travelers.</p><a href="room-executive.html">Read More</a></div>
-      <!-- Rooms continued -->
-      <div class="card"><img src="presidential1.jpg"><h3>Presidential</h3><p>Ultimate luxury with private service.</p><a href="room-presidential.html">Read More</a></div>
-      <div class="card"><img src="honey1.jpg"><h3>Honeymoon Suite</h3><p>Romantic retreat for couples.</p><a href="room-honeymoon.html">Read More</a></div>
-      <div class="card"><img src="access1.jpg"><h3>Accessible Room</h3><p>Comfort for all guests.</p><a href="room-accessible.html">Read More</a></div>
-      <div class="card"><img src="studio1.jpg"><h3>Studio Suite</h3><p>Spacious and modern design.</p><a href="room-studio.html">Read More</a></div>
-      <div class="card"><img src="connect1.jpg"><h3>Connect Rooms</h3><p>Perfect for families or groups.</p><a href="room-connect.html">Read More</a></div>
-      <div class="card"><img src="nature1.jpg"><h3>Corner Suite</h3><p>Elegant views and privacy.</p><a href="room-corner.html">Read More</a></div>
+      <div class="card"><img src="room1.jpg" alt="Luxurious Room"><h3>Luxurious Room & Suites</h3><p>Elegant comfort with modern design.</p><a href="room-luxury.html">Read More</a></div>
+      <div class="card"><img src="deluxe1.jpg" alt="Deluxe Room"><h3>Deluxe</h3><p>Perfect blend of luxury & simplicity.</p><a href="room-deluxe.html">Read More</a></div>
+      <div class="card"><img src="executive1.jpg" alt="Executive Room"><h3>Executive</h3><p>Spacious & designed for business travelers.</p><a href="room-executive.html">Read More</a></div>
+      <div class="card"><img src="presidential1.jpg" alt="Presidential Suite"><h3>Presidential</h3><p>Ultimate luxury with private service.</p><a href="room-presidential.html">Read More</a></div>
+      <div class="card"><img src="honey1.jpg" alt="Honeymoon Suite"><h3>Honeymoon Suite</h3><p>Romantic retreat for couples.</p><a href="room-honeymoon.html">Read More</a></div>
+      <div class="card"><img src="access1.jpg" alt="Accessible Room"><h3>Accessible Room</h3><p>Comfort for all guests.</p><a href="room-accessible.html">Read More</a></div>
+      <div class="card"><img src="studio1.jpg" alt="Studio Suite"><h3>Studio Suite</h3><p>Spacious and modern design.</p><a href="room-studio.html">Read More</a></div>
+      <div class="card"><img src="connect1.jpg" alt="Connect Rooms"><h3>Connect Rooms</h3><p>Perfect for families or groups.</p><a href="room-connect.html">Read More</a></div>
+      <div class="card"><img src="nature1.jpg" alt="Corner Suite"><h3>Corner Suite</h3><p>Elegant views and privacy.</p><a href="room-corner.html">Read More</a></div>
     </div>
   </section>
 
@@ -209,10 +209,10 @@
   <section id="facilities">
     <h2>Facilities & Amenities</h2>
     <div class="grid">
-      <div class="card"><img src="pool1.jpg"><h3>Pool & Bar</h3><p>Relax by our poolside bar.</p><a href="facility-pool.html">Read More</a></div>
-      <div class="card"><img src="gym1.jpg"><h3>Gym</h3><p>Stay fit with modern equipment.</p><a href="facility-gym.html">Read More</a></div>
-      <div class="card"><img src="spa1.jpg"><h3>Spa</h3><p>Unwind with our spa treatments.</p><a href="facility-spa.html">Read More</a></div>
-      <div class="card"><img src="conference1.jpg"><h3>Conference Hall</h3><p>Spacious venues for events.</p><a href="facility-conference.html">Read More</a></div>
+      <div class="card"><img src="pool1.jpg" alt="Pool & Bar"><h3>Pool & Bar</h3><p>Relax by our poolside bar.</p><a href="facility-pool.html">Read More</a></div>
+      <div class="card"><img src="gym1.jpg" alt="Gym"><h3>Gym</h3><p>Stay fit with modern equipment.</p><a href="facility-gym.html">Read More</a></div>
+      <div class="card"><img src="spa1.jpg" alt="Spa"><h3>Spa</h3><p>Unwind with our spa treatments.</p><a href="facility-spa.html">Read More</a></div>
+      <div class="card"><img src="conference1.jpg" alt="Conference Hall"><h3>Conference Hall</h3><p>Spacious venues for events.</p><a href="facility-conference.html">Read More</a></div>
     </div>
   </section>
 
@@ -220,11 +220,11 @@
   <section id="dining">
     <h2>Signature Dining</h2>
     <div class="grid">
-      <div class="card"><img src="gourmet1.jpg"><h3>Gourmet Dining</h3><p>World-class fine dining.</p><a href="dining-gourmet.html">Read More</a></div>
-      <div class="card"><img src="africa1.jpg"><h3>Olive Terrace</h3><p>African flavors in a modern setting.</p><a href="dining-terrace.html">Read More</a></div>
-      <div class="card"><img src="cocktail1.jpg"><h3>Rooftop Lounge</h3><p>Relax with cocktails and skyline views.</p><a href="dining-rooftop.html">Read More</a></div>
-      <div class="card"><img src="dining.jpg"><h3>In-room Dining</h3><p>Dine in the comfort of your suite.</p><a href="dining-inroom.html">Read More</a></div>
-      <div class="card"><img src="chef.jpg"><h3>Private Chef</h3><p>Personalized culinary experiences.</p><a href="dining-chef.html">Read More</a></div>
+      <div class="card"><img src="gourmet1.jpg" alt="Gourmet Dining"><h3>Gourmet Dining</h3><p>World-class fine dining.</p><a href="dining-gourmet.html">Read More</a></div>
+      <div class="card"><img src="africa1.jpg" alt="Olive Terrace"><h3>Olive Terrace</h3><p>African flavors in a modern setting.</p><a href="dining-terrace.html">Read More</a></div>
+      <div class="card"><img src="cocktail1.jpg" alt="Rooftop Lounge"><h3>Rooftop Lounge</h3><p>Relax with cocktails and skyline views.</p><a href="dining-rooftop.html">Read More</a></div>
+      <div class="card"><img src="dining.jpg" alt="In-room Dining"><h3>In-room Dining</h3><p>Dine in the comfort of your suite.</p><a href="dining-inroom.html">Read More</a></div>
+      <div class="card"><img src="chef.jpg" alt="Private Chef"><h3>Private Chef</h3><p>Personalized culinary experiences.</p><a href="dining-chef.html">Read More</a></div>
     </div>
   </section>
 
@@ -232,10 +232,10 @@
   <section id="gallery">
     <h2>Gallery</h2>
     <div class="grid gallery">
-      <img src="hotel1.jpg"><img src="hotel2.jpg"><img src="hotel3.jpg">
-      <img src="room1.jpg"><img src="room2.jpg"><img src="room3.jpg">
-      <img src="pool1.jpg"><img src="spa1.jpg"><img src="gym1.jpg">
-      <img src="executive1.jpg"><img src="deluxe1.jpg"><img src="presidential1.jpg">
+      <img src="hotel1.jpg" alt="Hotel exterior 1"><img src="hotel2.jpg" alt="Hotel exterior 2"><img src="hotel3.jpg" alt="Hotel exterior 3">
+      <img src="room1.jpg" alt="Room view 1"><img src="room2.jpg" alt="Room view 2"><img src="room3.jpg" alt="Room view 3">
+      <img src="pool1.jpg" alt="Pool area"><img src="spa1.jpg" alt="Spa"><img src="gym1.jpg" alt="Gym">
+      <img src="executive1.jpg" alt="Executive room"><img src="deluxe1.jpg" alt="Deluxe room"><img src="presidential1.jpg" alt="Presidential suite">
     </div>
   </section>
 
@@ -243,31 +243,33 @@
   <section id="testimonials">
     <h2>Testimonials</h2>
     <div class="grid">
-      <div class="testimonial"><p>“The best hotel experience I’ve ever had. Truly royal treatment!”</p><h4>- Chinedu A.</h4></div>
-      <div class="testimonial"><p>“From the rooms to the dining, everything was flawless.”</p><h4>- Mary K.</h4></div>
-      <div class="testimonial"><p>“I felt like a king. Olive Hotel is second to none.”</p><h4>- James O.</h4></div>
+      <div class="testimonial"><p>"The best hotel experience I've ever had. Truly royal treatment!"</p><h4>- Chinedu A.</h4></div>
+      <div class="testimonial"><p>"From the rooms to the dining, everything was flawless."</p><h4>- Mary K.</h4></div>
+      <div class="testimonial"><p>"I felt like a king. Olive Hotel is second to none."</p><h4>- James O.</h4></div>
     </div>
   </section>
-<!-- Location Section -->
-<section id="location" style="padding:60px 20px; text-align:center; background:#f8f8f8;">
-  <h2 style="font-size:2em; margin-bottom:20px; color:#5a2d82;">Find Us</h2>
-  <p style="margin-bottom:20px; font-size:1.1em;">
-    3 Adaranijo Close, Ipokia Street, Off Agoro Road, Owode Ota, Ogun State, Nigeria
-  </p>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.45034480266!2d3.210089314779359!3d6.691739523266514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a3f19f0c7d5f1%3A0xa29b1e21b9eebf91!2sOwode%20Ota%2C%20Ogun%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1694375738489!5m2!1sen!2sng"
-    width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen=""
-    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</section>
-                                 </section>
+
+  <!-- Location Section -->
+  <section id="location" style="padding:60px 20px; text-align:center; background:#f8f8f8;">
+    <h2 style="font-size:2em; margin-bottom:20px; color:#5a2d82;">Find Us</h2>
+    <p style="margin-bottom:20px; font-size:1.1em;">
+      3 Adaranijo Close, Ipokia Street, Off Agoro Road, Owode Ota, Ogun State, Nigeria
+    </p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.45034480266!2d3.210089314779359!3d6.691739523266514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a3f19f0c7d5f1%3A0xa29b1e21b9eebf91!2sOwode%20Ota%2C%20Ogun%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1694375738489!5m2!1sen!2sng"
+      width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen=""
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
   <!-- Footer -->
   <footer id="contact">
     <h2>Contact Us</h2>
     <p>Email: olivehotelandsuites@gmail.com</p>
     <p>Phone: 09056658964</p>
     <p>Address: 3 Adaranijo close, Ipokia Street, Off Agoro road, Owode ota, Ogun state, Nigeria</p>
-    <p>Facebook: <a href="#">Olive Hotel & Suites</a><ifrpme  <iframe 
+    <p>Facebook: <a href="#">Olive Hotel & Suites</a></p>
+    <iframe 
       src="https://www.google.com/maps/embed/v1/place?q=Ipokia+Street+Abiola+Abeokuta+Ogun+State+Nigeria&key=YOUR_GOOGLE_MAPS_API_KEY"
       width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
     </iframe>
@@ -275,15 +277,56 @@
   </footer>
 
   <script>
-    // Loader
-    window.addEventListener("load", () => {
-      document.getElementById("loader").style.display="none";
-    });
-
+    // Hide loader function with smooth fade out
+    function hideLoader() {
+      const loader = document.getElementById('loader');
+      if (loader) {
+        loader.style.opacity = '0';
+        setTimeout(function() {
+          loader.style.display = 'none';
+        }, 500);
+      }
+    }
+    
+    // Method 1: Hide when DOM is ready (immediate)
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', hideLoader);
+    } else {
+      hideLoader();
+    }
+    
+    // Method 2: Also hide on full page load (backup)
+    window.addEventListener('load', hideLoader);
+    
+    // Method 3: Emergency fallback - force hide after 2.5 seconds
+    setTimeout(hideLoader, 2500);
+    
     // Mobile menu toggle
-    const toggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector("nav ul");
-    toggle.addEventListener("click", ()=> menu.classList.toggle("show"));
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav ul');
+    if (toggle && menu) {
+      toggle.addEventListener('click', function() {
+        menu.classList.toggle('show');
+      });
+    }
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          // Close mobile menu if open
+          if (menu.classList.contains('show')) {
+            menu.classList.remove('show');
+          }
+        }
+      });
+    });
   </script>
 </body>
 </html>
